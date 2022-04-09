@@ -209,6 +209,9 @@ case $SHELL_TYPE in
     ;;
     LINUX_WORK)
         # commands for Linux go here
+        export SYSTEMC_ROOT=/opt/systemc
+        export LD_LIBRARY_PATH=${SYSTEMC_ROOT}/lib
+        export VERILATOR_ROOT=/usr/local/share/verilator
     ;;
     LINUX_HOME)
         # commands for Linux go here

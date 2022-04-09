@@ -125,7 +125,8 @@ if (has("gui_running"))
 else
     "" Vim on Termial
     "colorscheme desert
-    colorscheme dracula
+    " colorscheme dracula
+    colorscheme default
     set mouse=a
 endif
 
