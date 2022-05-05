@@ -51,3 +51,11 @@ else
     git clone git@github.com:VundleVim/Vundle.vim.git $f
 fi
 
+# shortcut
+f=~/.shortcut
+if [[ -d $f ]]; then
+    echo "WARNING: $f already exists"
+else
+    echo "INFO: $f"
+    /bin/ln -sf ~/env/shortcut/${SHELL_TYPE} $f
+fi
