@@ -36,6 +36,12 @@ Plugin 'https://github.com/scrooloose/nerdcommenter'
 " increment
 " e.g. increase 2 "2<Ctrl-A>"
 Plugin 'https://github.com/triglav/vim-visual-increment'
+" Preview PlantUML *.puml
+" :PlantumlOpen
+" :PlantumlStart
+Plugin 'https://github.com/tyru/open-browser.vim'
+Plugin 'https://github.com/aklt/plantuml-syntax'
+Plugin 'https://github.com/weirongxu/plantuml-previewer.vim'
 
 "" The following are examples of different formats supported."
 "" Keep Plugin commands between vundle#begin/end."
@@ -85,8 +91,8 @@ set showcmd             " display incomplete commands
 "" display
 set ruler               " show the cursor position all the time
 set number            " show number lines in front of text
-nmap ,n :set number<CR>
-nmap ,,n :set nonumber<CR>
+nmap ,nn :set number<CR>
+nmap ,,nn :set nonumber<CR>
 syntax on
 
 "" tab style : using space to replace tabs
@@ -294,13 +300,13 @@ nmap ,,zm :resize 1<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 "" for commenting
-iabbrev //// ///////////////////////////////////////////////////////////////
-iabbrev ///= //=========================================================
-iabbrev ///- //-----------------------------------------------------
+iabbrev //// ///////////////////////////////////////////////////////////////////////////////////////////////////
+iabbrev ///= //=============================================================================================
+iabbrev ///- //-----------------------------------------------------------------------------------------
 
-iabbrev #### ###############################################################
-iabbrev #=== #==========================================================
-iabbrev #--- #------------------------------------------------------
+iabbrev #### ###################################################################################################
+iabbrev #=== #==============================================================================================
+iabbrev #--- #------------------------------------------------------------------------------------------
 
 iabbrev """" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

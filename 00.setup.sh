@@ -31,7 +31,7 @@ if [[ -d $f ]]; then
     echo "WARNING: $f already exists"
 else
     echo "INFO: $f"
-    git clone git@github.com:ohmyzsh/ohmyzsh.git $f
+    git clone https://github.com/ohmyzsh/ohmyzsh.git $f
 fi
 
 # vim
@@ -48,7 +48,7 @@ if [[ -d $f ]]; then
 else
     echo "INFO: $f"
     mkdir -p $(dirname $f)
-    git clone git@github.com:VundleVim/Vundle.vim.git $f
+    git clone https://github.com/VundleVim/Vundle.vim.git $f
 fi
 
 # shortcut
