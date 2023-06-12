@@ -205,7 +205,7 @@ case $SHELL_TYPE in
     OSX_WORK)
         # commands for OS X go here
         export MANPATH=/opt/local/share/man:$MANPATH
-        export PATH=/opt/homebrew/bin:/opt/facebook/bin:/opt/facebook/hg/bin:${PATH}
+        export PATH=/opt/homebrew/bin:/opt/android_sdk/platform-tools:/opt/facebook/bin:/opt/facebook/hg/bin:${PATH}
     ;;
     LINUX_WORK)
         # commands for Linux go here
