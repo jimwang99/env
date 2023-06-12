@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh -f
+#!/usr/bin/env zsh
 
 if [[ -v SHELL_TYPE ]]; then
     echo "INFO: SHELL_TYPE=${SHELL_TYPE}"
